@@ -59,7 +59,34 @@ Important questions are:
 * is event type correctly chosen?
 * should the event has any weight?
 
-# How we determine if an event should have some weight?
-TBD
- 
+# How we determine if an event should be confirmed?
 
+* Events with those restrictions should be rejected:
+ - human race
+ - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal amount of them)
+
+Most of over events will be accepted if they do not look spammy (a lot of events of same type and CTF).
+
+# How we determine if an event should have some weight?
+
+ Events will not have any weight in those cases:
+
+ * An event allows only individual participation
+ * An event restricts participants to some academic-only participants
+ * Event organizer intentionally marked an event as "casual"
+ * Last event of this CTF was run more than 18 months ago (this rule should be reviewed, may be weight should be reduced instead)
+ * Events run on some conference and only conference attendee can participate
+
+However, events allowing on-line participants, but grant prizes only to on-site or academic-only participants are eligible for some weight.
+
+# On-site events
+
+There is a discussion how to determine the weight of on-site events. Historically there are famous final events with huge weight:
+* DEF CON CTF Finals
+* HITCON
+and some others.
+
+All those CTFs require to pass an online qualification round and support teams to visit on-site events.
+
+
+[TBD]
