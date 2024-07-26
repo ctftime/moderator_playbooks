@@ -61,7 +61,7 @@ Important questions are:
 
 # How we determine if an event should be confirmed?
 
-* Events with those restrictions should be rejected:
+Events with those restrictions should be rejected:
  - human race
  - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal amount of them)
 
@@ -76,6 +76,7 @@ Most of over events will be accepted if they do not look spammy (a lot of events
  * Event organizer intentionally marked an event as "casual"
  * Last event of this CTF was run more than 18 months ago (this rule should be reviewed, may be weight should be reduced instead)
  * Events run on some conference and only conference attendee can participate
+ * Event organizers did not provide any scoreboard within a voting period (7days after the event)
 
 However, events allowing on-line participants, but grant prizes only to on-site or academic-only participants are eligible for some weight.
 
@@ -87,6 +88,32 @@ There is a discussion how to determine the weight of on-site events. Historicall
 and some others.
 
 All those CTFs require to pass an online qualification round and support teams to visit on-site events.
+Although there are a lot of on-site events which have weight but do not offer any support to participating teams, also some of them can restrict participation on national basis. At the moment there is no specific rule - grant weight for those events or not.
+Those rules should be elaborated.
 
 
-[TBD]
+Team membership requests
+========================
+
+If some team has existing members - only team members can confirm team membership for new members. Also, they can send an invite token to new team members.
+
+If some team has no existing members then it can be freely joined by some person. There are simple antispam mechanics restricting teamsquotting, and all suspicious requests should me moderated manually.
+
+
+Team merge requests
+===================
+
+New teams can be created automatically duting scoreboard import process. Those team will not have any members and can be joined by any person.
+After team has any members - "team merge request" can be send.
+There are following restrictions:
+* Team member sending a merge request should be a member of both teams
+* Teams did not participate in the same event
+* If some teams did not participate in any event during last 14 days - they can not be merged
+Those rules should be reviewed.
+
+Proposal to change restrictions:
+* Team member sending a merge request should be a member of both teams
+* Teams did not participate in the same event
+* If some team participated in the events of the same year only it can be merged to some existing team during the current year
+* Teams which participated in event durring before the current years can not be merged
+* Disable team merging two weeks before the season ends (31 dec)
