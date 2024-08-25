@@ -103,7 +103,7 @@ If some team has no existing members then it can be freely joined by some person
 Team merge requests
 ===================
 
-New teams can be created automatically duting scoreboard import process. Those team will not have any members and can be joined by any person.
+New teams can be created automatically during scoreboard import process. Those team will not have any members and can be joined by any person.
 After team has any members - "team merge request" can be send.
 There are following restrictions:
 * Team member sending a merge request should be a member of both teams
