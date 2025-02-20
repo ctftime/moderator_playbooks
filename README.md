@@ -35,7 +35,7 @@ Moderating CTFs
 ===============
 
 In most cases after team creates a CTF and we just approve it.
-Here are some non-standart cases.
+Here are some non-standard cases.
 
 # CTF does not have any relevant information like URL or description
 * We reject the CTF
@@ -61,7 +61,7 @@ Important questions are:
 
 # How we determine if an event should be confirmed?
 
-Events with those restrictions should be rejected:
+Events with the follwing restrictions should be rejected:
  - human race
  - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal amount of them)
 
@@ -69,7 +69,7 @@ Most of over events will be accepted if they do not look spammy (a lot of events
 
 # How we determine if an event should have some weight?
 
- Events will not have any weight in those cases:
+ Events will not have any weight in the following cases:
 
  * An event allows only individual participation
  * An event restricts participants to some academic-only participants
