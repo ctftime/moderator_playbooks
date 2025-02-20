@@ -5,11 +5,11 @@ Here is a documentation for moderation process at CTFtime.org.
 
 # What is a CTF and What is an Event
 
-*CTF* is a serie of events, CTFs are managed by some *Team* (s). CTF is an aggregation key for events.
-CTFs does not have specific dataframes.
+A *CTF* is a series of events, CTFs are managed by some *Team* (s). CTF is an aggregation key for events.
+CTFs do not have specific dataframes.
 
-*Event* is a specific event within the CTF. Event always has specific datetime frames.
-Same Team can manage multiple CTFs or Events. 
+An *Event* is a specific event within the CTF. Events always have specific datetime frames.
+The Same Team can manage multiple CTFs or Events. 
 Events have organizers.
 
 # Event format
@@ -65,9 +65,9 @@ Events with the follwing restrictions should be rejected:
  - human race
  - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal amount of them)
 
-Most of over events will be accepted if they do not look spammy (a lot of events of same type and CTF).
+Other events will be accepted if they do not look spammy (e.g. a lot of events of same type and CTF).
 
-# How we determine if an event should have some weight?
+# How we determine if an event should have a weight?
 
  Events will not have any weight in the following cases:
 
