@@ -1,120 +1,129 @@
-CTFtime Moderation how to
---------------------------
+CTFtime Moderation How-To
+=========================
+
 *This repo is community-managed*
+
 Here is a documentation for moderation process at CTFtime.org.
 
-# What is a CTF and What is an Event
 
-A *CTF* is a series of events, CTFs are managed by some *Team* (s). CTF is an aggregation key for events.
-CTFs do not have specific dataframes.
+What is a CTF and What is an Event
+==================================
 
-An *Event* is a specific event within the CTF. Events always have specific datetime frames.
-The Same Team can manage multiple CTFs or Events. 
+A *CTF* is a series of events managed by one or more *Teams*. CTF is an aggregation key for events.
+CTFs do not have specific date frames.
+
+An *Event* is a specific event within a CTF series. Events always have specific dates and times.
+The same team can manage multiple CTFs or Events.
 Events have organizers.
 
-# Event format
-* Attack-defence
+### Event Formats
+* Attack-Defense
 * Jeopardy
-* Hack-quest
+* Hack quest
 
-# Physical limits
-* Online
+### Locations
+* On-line
 * On-site
 
-# Rule Restrictions
+### Rule Restrictions
 * Academic-only
-* Single player
+* Individual participation
 * Prequalified
-* Othen unspecified
+* Other unspecified restrictions
 
-# What is event weight
-Events can be *casual* - this type of events always have 0 weight.
-Events can be *votable* - weight for event of this type is determined by voting.
+### Event Weight
+Events can be *casual* – this type of events always has 0 weight.
+Events can be *votable* – weight is determined through participant voting.
+
 
 Moderating CTFs
 ===============
 
-In most cases after team creates a CTF and we just approve it.
+In most cases, after a team creates a CTF, we just approve it.
 Here are some non-standard cases.
 
-# CTF does not have any relevant information like URL or description
+### CTF lacks relevant information (e.g., no URL, description)
 * We reject the CTF
 
- # CTF has spammy description
+### CTF has a spammy description
 * We reject the CTF
 
-# CTF is created instead of Event
-* We edit CTF name / slug / description so organizers will create specific event
+### CTF mistakenly created instead of an Event
+* We edit CTF name / slug / description to remove references to specific event, and instruct organizers to create an Event in this CTF.
 
-# CTFs name already exists
-Sometimes organizers forget that they created a CTF, create new teams and can not manage their CTF.
-* We figure out why this happened and change CTF owners if required.
+### Duplicate CTF name
+Sometimes organizers forget they've already created a CTF, create a new team and lose control of their existing CTF series.
+* We figure out why this happened and change CTF owner if required.
+
 
 Moderating Events
 =================
-After team has approved CTF it can create events.
-Important questions are:
-* does event have relevant information for participants?
-* is datetime correct?
-* is event type correctly chosen?
-* should the event has any weight?
 
-# How we determine if an event should be confirmed?
+After a team's CTF is approved, they can create events.
+We verify whether:
+* the event has relevant information for participants
+* dates and times are correct
+* the event format, location and restrictions are specified correctly
+* the event should have any weight
 
-Events with the following restrictions should be rejected:
+## Determining Event Approval
+
+We reject events imposing the following restrictions on participants:
  - human race
- - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal number of such events)
+ - gender (exception: CTFs specifically oriented toward women, unless such events become equal or a majority)
  - religion
 
-Other events will be accepted if they do not look spammy (e.g. a lot of events of same type and CTF).
+We accept other events if they do not look spammy (e.g., a lot of similar events under the same CTF).
 
-# How we determine if an event should have a weight?
+## Determining Event Weight
 
- Events will not have any weight in the following cases:
+Events should have zero weight in the following cases:
 
- * An event allows only individual participation
- * An event restricts participants to some academic-only participants
- * Event organizer intentionally marked an event as "casual"
- * Last event of this CTF was run more than 18 months ago (this rule should be reviewed, may be weight should be reduced instead)
- * Events run on some conference and only conference attendee can participate
- * Event organizers did not provide any scoreboard within a voting period (7days after the event)
+* The event only allows individual participation
+* The event only allows academic-affiliated participantion
+* The event requires attending a paid conference, except for finals covering entrance for qualified teams
+    * However, events allowing on-line participation but awarding prizes only to on-site or academic participants are still eligible for weight
+* Event organizer intentionally marked it as "casual"
+* Organizer did not upload a scoreboard within the voting period (7 days after the event)
+* If the previous event of the CTF was run more than 18 months ago, weight voting starts at 0 instead of previous event's weight (this rule should be reviewed, maybe the weight should be reduced instead)
 
-However, events allowing on-line participants, but grant prizes only to on-site or academic-only participants are eligible for some weight.
+## On-site Events
 
-# On-site events
-
-There is a discussion how to determine the weight of on-site events. Historically there are famous final events with huge weight:
+There is a discussion on how to assign weight to on-site events. Historically, there were prominent on-site finals with huge weight:
 * DEF CON CTF Finals
 * HITCON
-and some others.
+* 0CTF/TCTF
+* Dragon CTF
+* Midnight Sun CTF
 
-All those CTFs require to pass an online qualification round and support teams to visit on-site events.
-Although there are a lot of on-site events which have weight but do not offer any support to participating teams, also some of them can restrict participation on national basis. At the moment there is no specific rule - grant weight for those events or not.
-Those rules should be elaborated.
+All these CTFs require passing an online qualification round and cover some expenses for the teams to come on site.
+
+However, there is a lot of non-zero weight on-site events that do not offer any support to participating teams. Some of them restrict participation on national basis. At the moment there are no specific rules on whether to assign weight to such events or not.
+These rules should be reviewed.
 
 
-Team membership requests
+Team Membership Requests
 ========================
 
-If some team has existing members - only team members can confirm team membership for new members. Also, they can send an invite token to new team members.
+* If a team already has existing members, only those members can approve new membership requests. They can also share their team invite token with the participants they want to join.
 
-If some team has no existing members then it can be freely joined by some person. There are simple antispam mechanics restricting teamsquotting, and all suspicious requests should me moderated manually.
+* If a team has no members, anyone can freely join. There are simple anti-spam mechanics to prevent team squatting; suspicious requests require manual moderation.
 
 
-Team merge requests
+Team Merge Requests
 ===================
 
-New teams can be created automatically during scoreboard import process. Those team will not have any members and can be joined by any person.
-After team has any members - "team merge request" can be send.
-There are following restrictions:
-* Team member sending a merge request should be a member of both teams
-* Teams did not participate in the same event
-* If some teams did not participate in any event during last 14 days - they can not be merged
-Those rules should be reviewed.
+Sometimes a team plays under a new name without first adding the name as team alias on CTFtime.
 
-Proposal to change restrictions:
-* Team member sending a merge request should be a member of both teams
-* Teams did not participate in the same event
-* If some team participated in the events of the same year only it can be merged to some existing team during the current year
-* Teams which participated in event durring before the current years can not be merged
-* Disable team merging two weeks before the season ends (31 dec)
+New teams are created automatically for every new name in an imported scoreboard. These teams have no members and can be joined freely.
+
+After the team has some members, a "team merge request" can be submitted to claim the results and add the name as an alias to some existing team.
+
+Team merge restrictions:
+* The user submitting the merge request must be a member of both teams
+* The two teams must not have participated in the same event
+* At least one of the teams must have participated in some event in the last 14 days
+
+These rules should be reviewed. Proposed additional restrictions:
+* A team can only be merged as an alias during the year of its creation. If a team has event results from previous years, it cannot be merged
+* No team merges can happen for two weeks at the end of the season (December 18 to 31)
