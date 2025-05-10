@@ -61,9 +61,10 @@ Important questions are:
 
 # How we determine if an event should be confirmed?
 
-Events with the follwing restrictions should be rejected:
+Events with the following restrictions should be rejected:
  - human race
- - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal amount of them)
+ - gender (exception: women-oriented CTFs untill the moment there'll be majority or equal number of such events)
+ - religion
 
 Other events will be accepted if they do not look spammy (e.g. a lot of events of same type and CTF).
 
