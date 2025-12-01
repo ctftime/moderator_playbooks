@@ -80,7 +80,7 @@ We accept other events if they do not look spammy (e.g., a lot of similar events
 Events should have zero weight in the following cases:
 
 * The event only allows individual participation
-* The event only allows academic-affiliated participantion
+* The event only allows academic-affiliated participation
 * The event requires attending a paid conference, except for finals covering entrance for qualified teams
     * However, events allowing on-line participation but awarding prizes only to on-site or academic participants are still eligible for weight
 * Event organizer intentionally marked it as "casual"
